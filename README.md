@@ -37,11 +37,23 @@ Then open:
 http://localhost:4173
 ```
 
-## Vercel deployment
+## Deployment
+
+GitHub repository:
+
+```text
+https://github.com/hailokesh/personal-brand-assessment-landing
+```
+
+Live Vercel URL:
+
+```text
+https://personal-brand-assessment-landing.vercel.app
+```
 
 This is a static site. No build command is required.
 
-If deploying manually through Vercel:
+If deploying manually through Vercel later:
 
 1. Create/import a Vercel project.
 2. Use framework: Other/static.
