@@ -1,54 +1,51 @@
-# Lokesh Bonthula AI Automation Landing Page
+# Lokesh Bonthula AI Automation Roadmap Landing Page
 
-A conversion-focused static landing page for Lokesh Bonthula's AI Automation Roadmap course/community.
+Conversion-focused static landing page for Lokesh Bonthula's AI Automation Roadmap course/community.
 
-## Source of truth
+## Current positioning
 
-Built from:
+- Name: Lokesh Bonthula
+- Audience: working professionals and freelancers
+- Offer: AI Automation Roadmap course/community early access
+- CTA: Join course early access
+- CTA target: `mailto:hailokesh@gmail.com?subject=AI%20Automation%20Course%20Early%20Access`
+- Core topics: n8n workflows, AI agents, agentic workflow design, voice chatbots, no-code/low-code apps and websites
+- Credibility used: 18+ years IT industry experience
 
-- `/home/hailokesh/workspace/Personal-Brand/personal_brand_creation_workbook.md`
-- Original assessment-platform concept from `/home/hailokesh/workspace/Personal-Brand/Personal Brand Doc.md`
+## Redesign notes
 
-## Page strategy
+This version was redesigned with the installed `ui-ux-pro-max` Hermes skill.
 
-- Page goal: collect early-access interest for Lokesh's AI Automation Roadmap course/community.
-- Public identity: Lokesh Bonthula.
-- Category: AI automation for business and AI-powered education.
-- Target visitor: working professionals and freelancers.
-- Core promise: help people turn real daily-work and business bottlenecks into practical AI automations using n8n, agentic workflows, and no-code/low-code tools.
-- Primary offer: AI Automation Roadmap course early access.
-- Secondary offer path: community.
-- Primary CTA: Join course early access.
-- CTA link: `mailto:hailokesh@gmail.com?subject=AI%20Automation%20Course%20Early%20Access`
-- Brand voice: beginner-friendly, energetic, practical.
+Design-system direction used:
 
-## Key message
-
-Stop collecting AI tools. Start building useful AI automations.
+- Pattern: scroll-triggered storytelling / funnel progression
+- Style: vibrant and block-based
+- Palette: brand blue, creator purple, CTA pink
+- Typography: Archivo headings + Space Grotesk body
+- UX priorities: strong contrast, mobile-first layout, clear CTA repetition, focus states, reduced-motion support, no fake proof
 
 ## Files
 
 - `index.html` — semantic static landing page
-- `styles.css` — responsive premium/AI design system
-- `README.md` — project notes and deployment instructions
+- `styles.css` — responsive visual system and layout
+- `README.md` — project notes
 
 ## Local preview
 
-From this folder:
-
 ```bash
+cd /home/hailokesh/workspace/personal-brand-assessment-landing
 python3 -m http.server 4173
 ```
 
 Then open:
 
 ```text
-http://localhost:4173
+http://127.0.0.1:4173
 ```
 
 ## Deployment
 
-GitHub repository:
+GitHub repo:
 
 ```text
 https://github.com/hailokesh/personal-brand-assessment-landing
@@ -60,19 +57,23 @@ Live Vercel URL:
 https://personal-brand-assessment-landing.vercel.app
 ```
 
-This is a static site. No build command is required.
+## Honest placeholders / assets to add later
 
-## Honest placeholders / missing assets
+Add these when real assets exist:
 
-The page does not invent fake testimonials, client logos, revenue numbers, guarantees, or case studies.
+1. Final waitlist, community, or payment link to replace the mailto CTA.
+2. Screenshots of actual n8n workflows and AI automation demos.
+3. Real testimonials or student outcomes.
+4. Course curriculum preview.
+5. LinkedIn, YouTube, Instagram, and WhatsApp/community links.
+6. Privacy policy and terms if collecting user data through a form.
 
-Add these later when real:
+## Source of truth
 
-- Final course name and curriculum outline
-- Real course waitlist/payment/community URL
-- Student/client results
-- Project screenshots and n8n workflow demos
-- Testimonials
-- Case studies
-- LinkedIn, YouTube, Instagram, and WhatsApp community links
-- Privacy policy and terms if collecting signups
+The page is based on the personal brand workbook at:
+
+```text
+/home/hailokesh/workspace/Personal-Brand/personal_brand_creation_workbook.md
+```
+
+No fake testimonials, fake logos, fake revenue claims, fake scarcity, or fake guarantees are included.
